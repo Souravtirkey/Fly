@@ -5,7 +5,7 @@ img_2=cv.imread("./as3hh-4uurn.jpg")
 img_3=cv.imread("./dark_2.jpg")
 img_4=cv.imread("./img.jpg")
 
-#resizing an image
+#resizing  image
 width = 700
 height = 350
 img = cv.resize(img, (width, height))
@@ -13,7 +13,7 @@ img_2= cv.resize(img_2, (width, height))
 img_3= cv.resize(img_3, (width, height))
 img_4= cv.resize(img_4, (width, height))
 
-# converrting both images in grayscale
+# converrting images in grayscale
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 gray_2 = cv.cvtColor(img_2, cv.COLOR_BGR2GRAY)
 gray_3 = cv.cvtColor(img_3, cv.COLOR_BGR2GRAY)
